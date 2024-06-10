@@ -6,6 +6,7 @@ const colors = {
   tertiary: '#4F4F4F',
   white: '#ffffff',
   black: '#000000',
+  background:'#D9D9D9',
 }
 
 const config: Config = {

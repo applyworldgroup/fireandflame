@@ -2,7 +2,7 @@ import { FC } from "react";
 
 export const About: FC = () => {
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8" id="about">
         <div>    
       <span className="text-3xl font-bold text-primary">About</span>
       <span className="text-3xl font-bold text-tertiary"> Us</span>
