@@ -1,23 +1,3 @@
-// {
-//   "new Function Component": {
-//     "prefix": "fc", // ⬅ String to be entered into the editor for snippet call
-//     "body": [ //⬅ The string to be inserted. To enter multiple lines, write an array.
-//     "import { FC } from 'react';",
-//     "", 
-//     "interface ${1:$TM_FILENAME_BASE}Props {};",
-//     "", 
-//     "const ${1:$TM_FILENAME_BASE}: FC<${1:$TM_FILENAME_BASE}Props> = ({}) => {",
-//     "  return <div> $2 </div>;",
-//     "};",
-//     "", 
-//     "export default ${1:$TM_FILENAME_BASE};"
-//     ],
-//     "description": "Template of new FC",
-//   }
-//   }
-
-
-
 import { About } from "@/components/about/About";
 import { Contact } from "@/components/contact/Contact";
 import Wrapper from "@/components/core/Wrapper";
@@ -30,7 +10,7 @@ import { Team } from "@/components/team/Team";
 export default function Home() {
     return (
         <Wrapper>
-          <div className="flex flex-col items-center gap-16">
+          <div className="flex flex-col items-center gap-16 py-4">
             <Navbar />
             <Landing />
             <Focus />

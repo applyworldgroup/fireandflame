@@ -9,7 +9,7 @@ export const Footer: FC = () => {
     <div className=" flex flex-col items-center">
       <Image
         alt="logo"
-        src={"/img/fireandflamehospitality.png"}
+        src={"/img/FireandFlameHospitality.png"}
         height={200}
         width={200}
         className="scale-75 md:scale-100 "
@@ -39,7 +39,7 @@ export const Footer: FC = () => {
         </div>
 
 
-        <div className="m-4 text-sm italic text-tertiary">
+        <div className=" text-sm italic text-tertiary">
         &copy; {new Date().getFullYear()} Fire and Flame Hospitality. All rights reserved.
       </div>
      
