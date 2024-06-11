@@ -33,11 +33,14 @@ const FoodMenu: FC<FoodMenu> = ({}) => {
         <div className="fixed top-0 left-0 flex items-center justify-center h-[100vh] w-[100vw] z-30 pb-[5vh] modal">
           <div className="h-[80vh] w-[90vw] md:max-w-[900px] rounded-md flex flex-col md:flex-row shadow-lg bg-white">
             <div className="h-full w-full md:w-[100%] md:border-r-2">
-              <iframe
-                src={"assets/foodmenu.pdf"}
-                className="w-3/4 h-[80vh] "
+              <object
+                data="assets/foodmenu.pdf"
+                type="application/pdf"
+                className="w-full h-full"
                 style={{ border: 0 }}
-              ></iframe>
+              >
+                <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="assets/foodmenu.pdf">Download PDF</a>.</p>
+              </object>
             </div>
           </div>
         </div>
