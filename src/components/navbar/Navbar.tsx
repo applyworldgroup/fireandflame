@@ -14,7 +14,7 @@ export const Navbar: FC = () => {
     <div className="flex flex-col items-center justify-center ">
       <Image
         alt="logo"
-        src={"/img/fireandflamehospitality.png"}
+        src={"/img/FireandFlameHospitality.png"}
         height={300}
         width={300}
         className="scale-75 md:scale-100"
