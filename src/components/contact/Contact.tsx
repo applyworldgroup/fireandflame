@@ -42,8 +42,6 @@ export const Contact: FC = () => {
           className=" p-8 rounded-lg w-full "
         >
             <div className="flex gap-8">
-
-       
           <div className="mb-4">
             <label className="block text-tertiary mb-1" htmlFor="firstName">
               First name

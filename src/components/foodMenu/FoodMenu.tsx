@@ -35,7 +35,7 @@ const FoodMenu: FC<FoodMenu> = ({}) => {
             <div className="h-full w-full md:w-[100%] md:border-r-2">
               <iframe
                 src={"assets/foodmenu.pdf"}
-                className="w-full h-full"
+                className="w-3/4 h-[80vh] "
                 style={{ border: 0 }}
               ></iframe>
             </div>
