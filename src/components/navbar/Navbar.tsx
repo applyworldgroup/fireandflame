@@ -1,15 +1,9 @@
 "use client"
 import Image from "next/image";
 import { FC } from "react";
+import { handleScroll } from "../lib/handleScroll";
 
 export const Navbar: FC = () => {
-  const handleScroll = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="flex flex-col items-center justify-center ">
       <Image

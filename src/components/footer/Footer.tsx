@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 export const Footer: FC = () => {
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center" id='contact'>
       <Image
         alt="logo"
         src={"/img/FireandFlameHospitality.png"}
