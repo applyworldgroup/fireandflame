@@ -10,7 +10,7 @@ export const About: FC = () => {
       <p className="text-tertiary text-center">
         We are a dynamic catering company led by experienced culinary
         professionals providing topquality catering services. We offer a range
-        of options from intimate dinners to large VIP events. Fire and Flame is
+        of options from intimate diners to large VIP events. Fire and Flame is
         known for exceeding customer expectations, they cater to various needs
         including corporate office catering, individual meal boxes, and buffet
         setups. Our exceptional menus cater to modern, relaxed dining
