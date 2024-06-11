@@ -31,7 +31,7 @@ export const Team: FC = () => {
     },
     {
       name: "David O’Connell",
-      position: "Director of Operations",
+      position: "Consultant Chef",
       desc: `David, our consultant chef is the mastermind behind crafting menus that perfectly suit the venue. Thanks to his extensive expertise in menu planning and design. With 35 years of experience in the kitchen, David has a proven track record of creating sensational dishes that leave a lasting impression on guests.`,
       phone: "0403455560",
       email: "david@fireandflame.com.au",
@@ -66,14 +66,14 @@ export const Team: FC = () => {
                   </span>
                 </div>
                 <p className="text-center">{item.desc}</p>
-                <div className="flex items-center gap-2 flex-col">
+                <a className="flex items-center gap-2 flex-col"  href={`tel:${item.phone}`}>
                   <FaPhoneAlt size={20} />
                   <span>{item.phone}</span>
-                </div>
-                <div className="flex items-center gap-2 flex-col">
+                </a>
+                <a className="flex items-center gap-2 flex-col" href={`mailto:${item.email}`}>
                   <MdEmail size={24} />
                   <span>{item.email}</span>
-                </div>
+                </a>
               </div>
             </div>
           );
