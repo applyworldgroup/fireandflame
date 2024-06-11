@@ -39,7 +39,7 @@ const FoodMenu: FC<FoodMenu> = ({}) => {
                 className="w-full h-full"
                 style={{ border: 0 }}
               >
-                <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="assets/foodmenu.pdf">Download PDF</a>.</p>
+                <p>Your browser does not support PDFs. Please download the PDF to view it: <a href="assets/foodmenu.pdf" className="bg-primary px-4 py-2 text-sm text-white rounded-md">Download PDF</a>.</p>
               </object>
             </div>
           </div>
