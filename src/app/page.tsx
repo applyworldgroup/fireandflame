@@ -1,4 +1,5 @@
 import { About } from "@/components/about/About";
+import { BusinessEnquiry } from "@/components/BusinessEnquiry/BusinessEnquiry";
 import { Contact } from "@/components/contact/Contact";
 import Wrapper from "@/components/core/Wrapper";
 import { Footer } from "@/components/footer/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
             <Focus />
             <About />
             <Team />
+            <BusinessEnquiry />
             <Contact />
             <div className="border-[1px] border-tertiary/10 w-full "></div>
             <Footer />
