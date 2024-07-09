@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 export const BusinessEnquiry: FC = () => {
   return (
-    <div className="flex flex-col items-center gap-4" id="about">
+    <div className="flex flex-col items-center gap-4" id='contact'>
       <div>
         <span className="text-3xl font-bold text-primary">Business</span>
         <span className="text-3xl font-bold text-tertiary"> Enquiry</span>
