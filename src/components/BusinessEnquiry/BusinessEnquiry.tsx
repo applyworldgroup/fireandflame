@@ -1,10 +1,9 @@
-import { FC } from "react";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FC } from "react";import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export const BusinessEnquiry: FC = () => {
   return (
-    <div className="flex flex-col items-center gap-4" id='contact'>
+    <div className="flex flex-col items-center gap-4" id="contact">
       <div>
         <span className="text-3xl font-bold text-primary">Business</span>
         <span className="text-3xl font-bold text-tertiary"> Enquiry</span>
@@ -19,7 +18,7 @@ export const BusinessEnquiry: FC = () => {
             <FaPhoneAlt size={28} />
             <div className="flex flex-col items-start">
               <span className="text-sm">Ted Elsayed</span>
-              <span>0404000345</span>
+              <span>0404 000 346</span>
             </div>
           </a>
           <a
@@ -29,18 +28,17 @@ export const BusinessEnquiry: FC = () => {
             <FaPhoneAlt size={28} />
             <div className="flex flex-col items-start">
               <span className="text-sm">Michel Farah</span>
-              <span>0415601464</span>
+              <span>0415 601 464</span>
             </div>
           </a>
-      
         </div>
         <a
-            className="flex items-center gap-2 justify-center"
-            href={`mailto:info@fireandflame.com.au`}
-          >
-            <MdEmail size={24} />
-            <span>info@fireandflame.com.au</span>
-          </a>
+          className="flex items-center gap-2 justify-center"
+          href={`mailto:info@fireandflame.com.au`}
+        >
+          <MdEmail size={24} />
+          <span>info@fireandflame.com.au</span>
+        </a>
       </div>
     </div>
   );
